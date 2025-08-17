@@ -1,16 +1,37 @@
 {
   "mod_elements": [
     {
-      "name": "Gamer",
-      "type": "command",
+      "name": "Ingredientes",
+      "type": "tab",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "gamer",
+      "registry_name": "ingredientes",
       "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/rebirthstudio/command/GamerCommand.java"
-        ]
-      }
+        "files": []
+      },
+      "path": "~/Creative Tab"
+    },
+    {
+      "name": "Comidas",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "comidas",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative Tab"
+    },
+    {
+      "name": "RebirthItens",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rebirth_itens",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Creative Tab"
     }
   ],
   "variable_elements": [],
@@ -18,7 +39,11 @@
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item_group.rebirthstudio.ingredientes": "Ingredientes",
+      "item_group.rebirthstudio.comidas": "Comidas",
+      "item_group.rebirthstudio.rebirth_itens": "Rebirth Itens"
+    }
   },
   "metadata": {
     "files": [
@@ -29,7 +54,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Creative Tab",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "rebirthstudio",
@@ -44,7 +74,9 @@
       "veil-neoforge"
     ],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "pehkui"
+    ],
     "currentGenerator": "neoforge-1.21.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.rebirthstudio"

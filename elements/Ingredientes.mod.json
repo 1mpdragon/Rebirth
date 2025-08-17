@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "tab",
+  "definition": {
+    "name": "Ingredientes",
+    "icon": {
+      "value": "Items.WHEAT_SEEDS"
+    },
+    "showSearch": true
+  }
+}

@@ -33,6 +33,12 @@ authors="MCreator"
 
 
 [[dependencies.rebirthstudio]]
+    modId="pehkui"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.rebirthstudio]]
     modId="veil-neoforge"
     type="optional"
     versionRange="[0,)"
