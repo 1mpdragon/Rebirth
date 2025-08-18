@@ -13,38 +13,55 @@ authors="MCreator"
 # Start of user code block mod configuration
 # End of user code block mod configuration
 
-
-# Start of user code block custom mixins
-# End of user code block custom mixins
+[[dependencies.rebirthstudio]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.176,)"
+ordering="AFTER"
+side="BOTH"
 
 [[dependencies.rebirthstudio]]
-    modId="neoforge"
-    type="required"
-    versionRange="[21.1.176,)"
-    ordering="AFTER"
-    side="BOTH"
-
-[[dependencies.rebirthstudio]]
-    modId="minecraft"
-    type="required"
-    versionRange="[1.21.1]"
-    ordering="AFTER"
-    side="BOTH"
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="AFTER"
+side="BOTH"
 
 
 [[dependencies.rebirthstudio]]
-    modId="pehkui"
-    type="optional"
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
+modId="pehkui"
+type="optional"
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
 [[dependencies.rebirthstudio]]
-    modId="veil-neoforge"
-    type="optional"
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
+modId="curios_api"
+type="optional"
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.rebirthstudio]]
+modId="veil-neoforge"
+type="optional"
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.rebirthstudio]]
+modId="geckolib"
+type="optional"
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.rebirthstudio]]
+modId="playeranimator"
+type="optional"
+versionRange="[0,)"
+ordering="NONE"
+side="BOTH"
 
+
+[[mixins]]
+    config="mixins.rebirthstudio.json"
 
 # Start of user code block dependencies configuration
 # End of user code block dependencies configuration

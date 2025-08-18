@@ -49,6 +49,7 @@
     "files": [
       "src/main/resources/META-INF/neoforge.mods.toml",
       "src/main/resources/pack.mcmeta",
+      "src/main/resources/mixins.rebirthstudio.json",
       "src/main/java/net/mcreator/rebirthstudio/RebirthstudioMod.java"
     ]
   },
@@ -75,7 +76,10 @@
     ],
     "dependants": [],
     "mcreatorDependencies": [
-      "pehkui"
+      "pehkui",
+      "curios_api",
+      "geckolib",
+      "playeranimator"
     ],
     "currentGenerator": "neoforge-1.21.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",

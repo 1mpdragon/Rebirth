@@ -11,20 +11,6 @@ java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 neoForge {
     version = "21.1.176"
 
-    repositories {
-        maven {
-            name = 'BlameJared Maven (CrT / Bookshelf)'
-            url = 'https://maven.blamejared.com'
-        }
-    }
-
-    dependencies {
-        implementation("foundry.veil:veil-neoforge-${project.minecraft_version}:${project.veil_version}") {
-            exclude group: "maven.modrinth"
-            exclude group: "me.fallenbreath"
-        }
-    }
-
     runs {
         client {
             client()
